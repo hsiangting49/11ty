@@ -5,20 +5,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>  
-   <div id="celestial-container">
-    <img src="earth.jpg" alt="Earth" id="earth" class="celestial" onclick="showContent('earth')">
-    <img src="moon.jpg" alt="Moon" id="moon" class="celestial" onclick="showContent('moon')">
-</div>
+<body> 
+    <script src="scripts.js"></script>
+    <div id="celestial-container">
+        <img src="earth.jpg" alt="Earth" id="earth" class="celestial" onclick="showContent('earth')">
+        <img src="moon.jpg" alt="Moon" id="moon" class="celestial" onclick="showContent('moon')">
+    </div>
 
-<div id="content-container">
-    <div id="earth-content" class="celestial-content">
-        <h2>Earth</h2>
-        <p>This is information about Earth.</p>
+    <div id="content-container">
+        <div id="earth-content" class="celestial-content">
+            <h2>Earth</h2>
+            <p>This is information about Earth.</p>
+        </div>
+        <div id="moon-content" class="celestial-content">
+            <h2>Moon</h2>
+            <p>This is information about the Moon.</p>
+        </div>
     </div>
-    <div id="moon-content" class="celestial-content">
-        <h2>Moon</h2>
-        <p>This is information about the Moon.</p>
-    </div>
-</div>
 </body>
