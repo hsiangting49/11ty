@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+#content-area {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px; /* Set the maximum width as per your preference */
+    margin: 0 auto;
+}
+
+#image-section {
+    position: relative;
+    text-align: center;
+}
+
+img.celestial {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    cursor: pointer;
+}
