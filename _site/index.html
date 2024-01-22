@@ -6,11 +6,19 @@
 </head>
 
 <body>  
-    <script src="scripts.js"></script>
-    <div class="image-container">
-        <img src="images/3d-rendering-planet-earth.jpg" alt="Earth.jpg" id="Earth.jpg">
-        <p id="displayText">Earth, the third planet from the Sun in our solar system, is a unique and vibrant celestial body teeming with life. With a diverse range of ecosystems, from lush rainforests to vast oceans, Earth is the only known planet to support a rich tapestry of flora and fauna. Its atmosphere, primarily composed of nitrogen and oxygen, sustains life as we know it. Home to over 7 billion humans, Earth has witnessed the evolution of countless species and civilizations throughout its approximately 4.5 billion years of existence. It orbits the Sun at just the right distance to maintain a stable climate conducive to life, making it a precious and delicate haven in the vastness of the cosmos. Efforts to understand and protect Earth's environment are crucial to ensuring the well-being of both its inhabitants and the planet itself.</p>
-        <img src="images/110544-ONXRZR-643.jpg" alt="Moon.jpg">
-        <p id="displayText">The Moon, Earth's only natural satellite, has captivated human imagination for centuries with its enigmatic beauty and influence on our planet. It orbits Earth at an average distance of about 384,400 kilometers, shaping our tides and lighting up our night sky. With a barren and rocky surface marked by craters, mountains, and plains, the Moon stands as a silent witness to the cosmic ballet of the celestial bodies. </p>
-    </div>    
+   <div id="celestial-container">
+    <img src="earth.jpg" alt="Earth" id="earth" class="celestial" onclick="showContent('earth')">
+    <img src="moon.jpg" alt="Moon" id="moon" class="celestial" onclick="showContent('moon')">
+</div>
+
+<div id="content-container">
+    <div id="earth-content" class="celestial-content">
+        <h2>Earth</h2>
+        <p>This is information about Earth.</p>
+    </div>
+    <div id="moon-content" class="celestial-content">
+        <h2>Moon</h2>
+        <p>This is information about the Moon.</p>
+    </div>
+</div>
 </body>
