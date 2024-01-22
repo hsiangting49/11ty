@@ -1,9 +1,22 @@
-.buttons {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+.celestial {
+    cursor: pointer;
 }
 
-button {
-    margin-left: 10px;
+#celestial-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#content-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.celestial-content {
+    display: none;
+}
+
+.celestial-content.active {
+    display: block;
 }
